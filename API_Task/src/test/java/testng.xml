@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+    <listeners>
+        <listener class-name="Listeners.TestNGExtentReport" />
+    </listeners>
+    <test name="Pet API Tests">
+        <classes>
+            <class name="Testcases.Pet_Testcases" />
+        </classes>
+    </test>
+</suite>
